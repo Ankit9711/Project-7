@@ -46,8 +46,8 @@ def Show_score() :
     print("-"*4)
     print(f"{Player_Name} : {Game.Score}")
     print(f"COMPUTER      : {Game.comp}")
-    if(Game.score > Game.comp) : print(f"{Player_Name} wins the match")
-    elif(Game.score < Game.comp) : print("Computer wins the match")
+    if(Game.Score > Game.comp) : print(f"{Player_Name} wins the match")
+    elif(Game.Score < Game.comp) : print("Computer wins the match")
     else : print("Match draw")
     return
 
